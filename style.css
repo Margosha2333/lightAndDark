@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	transition: background-color 0.9s, color 0.9s;
+}
+.container{
+	text-align: center;
+	margin-bottom: 20%;
+}
+button{
+	padding: 10px 20px;
+	font-size: 16px ;
+	cursor: pointer;
+	border: none;
+	border-radius: 6px;
+}
+body.light{
+	background-color: blue;
+	color: pink;
+}
+button.light{
+	background-color: red;
+	color: white;
+}
+body.dark{
+	background-color: red;
+	color: grey;
+}
+button.dark{
+	background-color: white;
+	color: pink;
+}
